@@ -1,0 +1,272 @@
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2020-05-28T18:59:51.413Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2020-05-28T18:59:51.413Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.3.2' ]","timestamp":"2020-05-28T18:59:51.417Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/sam/Unity/UnityHub.AppImage' ]","timestamp":"2020-05-28T18:59:51.417Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 3600 6-Core Processor; Linux (5.4.42_1)' ]","timestamp":"2020-05-28T18:59:51.418Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2020-05-28T18:59:51.422Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2020-05-28T18:59:51.422Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2020-05-28T18:59:51.610Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.611Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Done init' ]","timestamp":"2020-05-28T18:59:51.629Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.629Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.630Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2020-05-28T18:59:51.630Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2020-05-28T18:59:51.631Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Custom install path not present.' ]","timestamp":"2020-05-28T18:59:51.631Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/sam/Unity/Hub/Editor' ]","timestamp":"2020-05-28T18:59:51.631Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2020-05-28T18:59:51.631Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2020-05-28T18:59:51.632Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.632Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.632Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2020-05-28T18:59:51.632Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2020-05-28T18:59:51.634Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.635Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2020-05-28T18:59:51.636Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2020-05-28T18:59:51.636Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2020-05-28T18:59:51.636Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> notLogin' ]","timestamp":"2020-05-28T18:59:51.636Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2020-05-28T18:59:51.637Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:51.637Z"}
+{"moduleName":"BetaBuildConfig","level":"error","message":"[ { Error: Request failed with status code 404\n      at createError (/tmp/.mount_UnityHaoWf4T/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n      at settle (/tmp/.mount_UnityHaoWf4T/resources/app.asar/node_modules/axios/lib/core/settle.js:18:12)\n      at IncomingMessage.handleStreamEnd (/tmp/.mount_UnityHaoWf4T/resources/app.asar/node_modules/axios/lib/adapters/http.js:202:11)\n      at IncomingMessage.emit (events.js:199:15)\n      at IncomingMessage.EventEmitter.emit (domain.js:469:20)\n      at endReadableNT (_stream_readable.js:1141:12)\n      at processTicksAndRejections (internal/process/task_queues.js:81:17)\n    config:\n     { adapter: [Function: httpAdapter],\n       transformRequest: [Object],\n       transformResponse: [Object],\n       timeout: 0,\n       xsrfCookieName: 'XSRF-TOKEN',\n       xsrfHeaderName: 'X-XSRF-TOKEN',\n       maxContentLength: -1,\n       validateStatus: [Function: validateStatus],\n       headers: [Object],\n       proxy: false,\n       method: 'get',\n       url:\n        'https://public-cdn.cloud.unity3d.com/hub/prod/betaConfig.json',\n       data: undefined },\n    request:\n     ClientRequest {\n       _events: [Object],\n       _eventsCount: 6,\n       _maxListeners: undefined,\n       outputData: [],\n       outputSize: 0,\n       writable: true,\n       _last: true,\n       chunkedEncoding: false,\n       shouldKeepAlive: false,\n       useChunkedEncodingByDefault: false,\n       sendDate: false,\n       _removedConnection: false,\n       _removedContLen: false,\n       _removedTE: false,\n       _contentLength: 0,\n       _hasBody: true,\n       _trailer: '',\n       finished: true,\n       _headerSent: true,\n       socket: [TLSSocket],\n       connection: [TLSSocket],\n       _header:\n        'GET /hub/prod/betaConfig.json HTTP/1.1\\r\\nAccept: application/json, text/plain, */*\\r\\nUser-Agent: axios/0.18.1\\r\\nHost: public-cdn.cloud.unity3d.com\\r\\nConnection: close\\r\\n\\r\\n',\n       _onPendingData: [Function: noopPendingOutput],\n       agent: [BoundHttpsProxyAgent],\n       socketPath: undefined,\n       method: 'GET',\n       path: '/hub/prod/betaConfig.json',\n       _ended: true,\n       res: [IncomingMessage],\n       aborted: false,\n       timeoutCb: null,\n       upgradeOrConnect: false,\n       parser: null,\n       maxHeadersCount: null,\n       _redirectable: [Writable],\n       [Symbol(isCorked)]: false,\n       [Symbol(outHeadersKey)]: [Object] },\n    response:\n     { status: 404,\n       statusText: 'Not Found',\n       headers: [Object],\n       config: [Object],\n       request: [ClientRequest],\n       data:\n        '<html>\\n<head><title>404 Not Found</title></head>\\n<body>\\n<h1>404 Not Found</h1>\\n<ul>\\n<li>Code: NoSuchKey</li>\\n<li>Message: The specified key does not exist.</li>\\n<li>Key: hub/prod/betaConfig.json</li>\\n<li>RequestId: CB7AFFE4F89B0802</li>\\n<li>HostId: 2kuFJOTqJPkE4pjrVYli2ZMS9wa7iWFqq3b8MzXf6pNDJz707sYcubp8OrTHdoNVzF+bNjj+E/s=</li>\\n</ul>\\n<hr/>\\n</body>\\n</html>\\n' } } ]","timestamp":"2020-05-28T18:59:51.939Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2020-05-28T18:59:51.939Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2020-05-28T18:59:51.939Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2020-05-28T18:59:51.940Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2020-05-28T18:59:52.096Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2020-05-28T18:59:52.098Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.098Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2020-05-28T18:59:52.098Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.099Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.099Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.099Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.099Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/sam/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/sam/.local/share/unity3d/prefs' } ]","timestamp":"2020-05-28T18:59:52.099Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2020-05-28T18:59:52.100Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.100Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T18:59:52.100Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2020-05-28T18:59:52.114Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2020-05-28T18:59:52.114Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/sam/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/sam/.local/share/unity3d/prefs' } ]","timestamp":"2020-05-28T18:59:52.620Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2020-05-28T18:59:57.461Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2020-05-28T19:00:46.545Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2020-05-28T19:00:46.546Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.3.2' ]","timestamp":"2020-05-28T19:00:46.551Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/sam/Unity/UnityHub.AppImage' ]","timestamp":"2020-05-28T19:00:46.551Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 3600 6-Core Processor; Linux (5.4.42_1)' ]","timestamp":"2020-05-28T19:00:46.552Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2020-05-28T19:00:46.557Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2020-05-28T19:00:46.558Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2020-05-28T19:00:46.764Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.768Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Done init' ]","timestamp":"2020-05-28T19:00:46.779Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.779Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.780Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2020-05-28T19:00:46.780Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2020-05-28T19:00:46.781Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/sam/Unity/Hub/Editor' ]","timestamp":"2020-05-28T19:00:46.782Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2020-05-28T19:00:46.782Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2020-05-28T19:00:46.782Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.783Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.783Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2020-05-28T19:00:46.783Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2020-05-28T19:00:46.785Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.787Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2020-05-28T19:00:46.787Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2020-05-28T19:00:46.788Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2020-05-28T19:00:46.788Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> notLogin' ]","timestamp":"2020-05-28T19:00:46.788Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2020-05-28T19:00:46.788Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:46.789Z"}
+{"moduleName":"BetaBuildConfig","level":"error","message":"[ { Error: Request failed with status code 404\n      at createError (/tmp/.mount_UnityHfRYbxy/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n      at settle (/tmp/.mount_UnityHfRYbxy/resources/app.asar/node_modules/axios/lib/core/settle.js:18:12)\n      at IncomingMessage.handleStreamEnd (/tmp/.mount_UnityHfRYbxy/resources/app.asar/node_modules/axios/lib/adapters/http.js:202:11)\n      at IncomingMessage.emit (events.js:199:15)\n      at IncomingMessage.EventEmitter.emit (domain.js:469:20)\n      at endReadableNT (_stream_readable.js:1141:12)\n      at processTicksAndRejections (internal/process/task_queues.js:81:17)\n    config:\n     { adapter: [Function: httpAdapter],\n       transformRequest: [Object],\n       transformResponse: [Object],\n       timeout: 0,\n       xsrfCookieName: 'XSRF-TOKEN',\n       xsrfHeaderName: 'X-XSRF-TOKEN',\n       maxContentLength: -1,\n       validateStatus: [Function: validateStatus],\n       headers: [Object],\n       proxy: false,\n       method: 'get',\n       url:\n        'https://public-cdn.cloud.unity3d.com/hub/prod/betaConfig.json',\n       data: undefined },\n    request:\n     ClientRequest {\n       _events: [Object],\n       _eventsCount: 6,\n       _maxListeners: undefined,\n       outputData: [],\n       outputSize: 0,\n       writable: true,\n       _last: true,\n       chunkedEncoding: false,\n       shouldKeepAlive: false,\n       useChunkedEncodingByDefault: false,\n       sendDate: false,\n       _removedConnection: false,\n       _removedContLen: false,\n       _removedTE: false,\n       _contentLength: 0,\n       _hasBody: true,\n       _trailer: '',\n       finished: true,\n       _headerSent: true,\n       socket: [TLSSocket],\n       connection: [TLSSocket],\n       _header:\n        'GET /hub/prod/betaConfig.json HTTP/1.1\\r\\nAccept: application/json, text/plain, */*\\r\\nUser-Agent: axios/0.18.1\\r\\nHost: public-cdn.cloud.unity3d.com\\r\\nConnection: close\\r\\n\\r\\n',\n       _onPendingData: [Function: noopPendingOutput],\n       agent: [BoundHttpsProxyAgent],\n       socketPath: undefined,\n       method: 'GET',\n       path: '/hub/prod/betaConfig.json',\n       _ended: true,\n       res: [IncomingMessage],\n       aborted: false,\n       timeoutCb: null,\n       upgradeOrConnect: false,\n       parser: null,\n       maxHeadersCount: null,\n       _redirectable: [Writable],\n       [Symbol(isCorked)]: false,\n       [Symbol(outHeadersKey)]: [Object] },\n    response:\n     { status: 404,\n       statusText: 'Not Found',\n       headers: [Object],\n       config: [Object],\n       request: [ClientRequest],\n       data:\n        '<html>\\n<head><title>404 Not Found</title></head>\\n<body>\\n<h1>404 Not Found</h1>\\n<ul>\\n<li>Code: NoSuchKey</li>\\n<li>Message: The specified key does not exist.</li>\\n<li>Key: hub/prod/betaConfig.json</li>\\n<li>RequestId: B774D6A812D25E1E</li>\\n<li>HostId: mWHrhUb2pJGw5Bc7ceY2bsggoYnRWZojwiWvB8EmhpASDaWrDAX7PoiADiRhJK4UNzJ3k40d3kQ=</li>\\n</ul>\\n<hr/>\\n</body>\\n</html>\\n' } } ]","timestamp":"2020-05-28T19:00:47.116Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2020-05-28T19:00:47.116Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2020-05-28T19:00:47.116Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2020-05-28T19:00:47.117Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2020-05-28T19:00:47.267Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2020-05-28T19:00:47.268Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2020-05-28T19:00:47.269Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.269Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2020-05-28T19:00:47.270Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.270Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.271Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.271Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.271Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/sam/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/sam/.local/share/unity3d/prefs' } ]","timestamp":"2020-05-28T19:00:47.271Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2020-05-28T19:00:47.271Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.272Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:00:47.272Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2020-05-28T19:00:47.286Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2020-05-28T19:00:47.286Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/sam/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/sam/.local/share/unity3d/prefs' } ]","timestamp":"2020-05-28T19:00:47.823Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/0877ffae-3c3f-4d30-8dab-62c49fd2cc1f00af/thirdparty. Error: -3 - ' ]","timestamp":"2020-05-28T19:01:47.094Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://accounts.google.com/signin/v1/lookup. Error: -3 - ' ]","timestamp":"2020-05-28T19:02:01.220Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://accounts.google.com/signin/challenge/pwd/1. Error: -3 - ' ]","timestamp":"2020-05-28T19:02:04.555Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://accounts.google.com/signin/challenge/pwd/1. Error: -3 - ' ]","timestamp":"2020-05-28T19:02:08.261Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://accounts.google.com/signin/oauth/legacy/approval?authuser=0&part=AJi8hAOo_G8ezGr7-BRDCWIa0Es0f8eMmegkmrkYAoved2gAXcCKZ1TVbA26SK4_PrtBLdWIy-uG_FEdVC3RYKriBup2MkRjdbKgwHQ5yY1U9WwcDAR8U2BKpcdIEe0ds6SG9AHt3eSEg2IS_UuVxA0BwcVtaSvtoXudqXpYYMlzQUvpiykLUYba1_tCR75zPo1l9nbJxFIT74GejA649jD2m8lxxID4oPrHrkpwR3iTd60YJ3MVZ8tBEj7Q0rGKe23nwTIu4GRnib63lFiYhGPRv0ARqiHyDKZF64acK17AzUJdxX-t4agAW9sOPEUYCIy2calWeGyvFBtxwoCmgwVJKMUST-OxkC-5TP8IihRXFQ5v0RolmOLLY9gc7pVkoSk1FD9HO3DJh_1j1eDwfYZmTPBFtAm04N-PL-ssPVFTtlS0wOjLu9mFSEQk0ohT0Q95JyqF6p40iK4F02VkE-n_m4I1Wry-_aH0ZnfAHf1_S5MstbMoF5_SqOxuMgUGZkXrKstyz0kflx5XMNU-Oe04pQDmYqU5JoG6mRb58ZhME_eSnaFaLHB9p_p07eN406x3OUOHxX73W1Sc3dd0DG7ODVg2mwESF3wSRgyTKHAV6NFQAfH9x2R9wmHPnXU5i2LW5Sy4YRpv123_NE6fEN17gu15tJt3qaHP9QeyR1zusQSp49Nw1oAepgINqmTMeSkZI9XzBaorbV2rF-xj9SkiPJcz8p66UVxuyiZW3E4BEjLK91rXUyGHaGk9mQp05eaxZJ0cshOq&as=lknfbbp2yo7rVmcC6c6EGQ#. Error: -3 - ' ]","timestamp":"2020-05-28T19:02:13.100Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/0877ffae-3c3f-4d30-8dab-62c49fd2cc1f00af. Error: -3 - ' ]","timestamp":"2020-05-28T19:02:15.450Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2020-05-28T19:02:15.958Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'notLogin --> initializing' ]","timestamp":"2020-05-28T19:02:15.959Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2020-05-28T19:02:15.959Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2020-05-28T19:02:15.963Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2020-05-28T19:02:15.994Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2020-05-28T19:02:17.697Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseNew' ]","timestamp":"2020-05-28T19:02:17.697Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Set Survey value' ]","timestamp":"2020-05-28T19:02:17.887Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license flow started' ]","timestamp":"2020-05-28T19:02:17.887Z"}
+{"moduleName":"UnityLicenseCore","level":"info","message":"[ 'Deleting file: /home/sam/.local/share/unity3d/Unity/Unity_lic.ulf.backup' ]","timestamp":"2020-05-28T19:02:24.844Z"}
+{"moduleName":"UnityLicenseCore","level":"info","message":"[ 'Writing file: /home/sam/.local/share/unity3d/Unity/Unity_lic.ulf' ]","timestamp":"2020-05-28T19:02:24.857Z"}
+{"moduleName":"RestEvent:License","level":"info","message":"[ 'onLicenseChange',\n  'data:',\n  { kind: 'Unity' },\n  'connections: ',\n  Map {} ]","timestamp":"2020-05-28T19:02:24.858Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license issued' ]","timestamp":"2020-05-28T19:02:24.859Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'licenseNew --> initializing' ]","timestamp":"2020-05-28T19:02:24.859Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2020-05-28T19:02:24.866Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2020-05-28T19:02:24.866Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2020-05-28T19:02:24.866Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.1.0b10: starting' ]","timestamp":"2020-05-28T19:04:42.765Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 326.61MB' ]","timestamp":"2020-05-28T19:04:43.025Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.1.0b10: downloads starting' ]","timestamp":"2020-05-28T19:04:43.026Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.1/UnityDocumentation.zip to /tmp/unityhub-1688fbd0-a116-11ea-9233-012c122d5b96/UnityDocumentation.zip' ]","timestamp":"2020-05-28T19:04:43.026Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://beta.unity3d.com/download/d80b47d1592d/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-1688fbd0-a116-11ea-9233-012c122d5b96/Unity.tar.xz' ]","timestamp":"2020-05-28T19:04:43.343Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.1.0b10: downloads starting, total size: 1.97GB)' ]","timestamp":"2020-05-28T19:04:43.344Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.1.0b10: Finished' ]","timestamp":"2020-05-28T19:05:36.558Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.1.0b10: end event for cluster' ]","timestamp":"2020-05-28T19:05:36.558Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-1688fbd0-a116-11ea-9233-012c122d5b96/UnityDocumentation.zip' ]","timestamp":"2020-05-28T19:05:36.558Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.1.0b10: end event for editor' ]","timestamp":"2020-05-28T19:11:24.028Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.1.0b10: Finished' ]","timestamp":"2020-05-28T19:11:24.028Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-1688fbd0-a116-11ea-9233-012c122d5b96/Unity.tar.xz' ]","timestamp":"2020-05-28T19:11:24.029Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Editor download ended successfully. Download id: 2020.1.0b10' ]","timestamp":"2020-05-28T19:11:27.401Z"}
+{"moduleName":"Installer","level":"info","message":"[ 'Install 2020.1.0b10: /tmp/unityhub-1688fbd0-a116-11ea-9233-012c122d5b96/Unity.tar.xz to /home/sam/Unity/Hub/Editor/2020.1.0b10 started' ]","timestamp":"2020-05-28T19:11:27.401Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'write /home/sam/Unity/Hub/Editor/2020.1.0b10/modules.json' ]","timestamp":"2020-05-28T19:12:28.989Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'read /home/sam/Unity/Hub/Editor/2020.1.0b10/modules.json' ]","timestamp":"2020-05-28T19:12:29.235Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'New Project Window is called for editor 2020.1.0b10' ]","timestamp":"2020-05-28T19:25:19.722Z"}
+{"moduleName":"Templates","level":"warn","message":"[ 'No package.json found for the template',\n  { [Error: ENOENT: no such file or directory, open '/home/sam/Unity/Hub/Editor/2020.1.0b10/Editor/Data/Resources/PackageManager/ProjectTemplates/libcache/package.json']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path:\n     '/home/sam/Unity/Hub/Editor/2020.1.0b10/Editor/Data/Resources/PackageManager/ProjectTemplates/libcache/package.json' } ]","timestamp":"2020-05-28T19:25:19.937Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'createProject projectPath: /home/sam/dev/Octagonal, current editor: ',\n  undefined ]","timestamp":"2020-05-28T19:26:12.533Z"}
+{"moduleName":"RestEvent:Project","level":"info","message":"[ 'onProjectCreate data: ',\n  { projectName: 'Octagonal',\n    projectDirectory: '/home/sam/dev',\n    projectType:\n     '/home/sam/Unity/Hub/Editor/2020.1.0b10/Editor/Data/Resources/PackageManager/ProjectTemplates/com.unity.template.hd-8.1.0.tgz',\n    selectedPackages: [],\n    defaultScene: '',\n    organizationId: undefined } ]","timestamp":"2020-05-28T19:26:12.533Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]","timestamp":"2020-05-28T19:26:57.385Z"}
+{"moduleName":"LaunchProcess","level":"info","message":"[ 'child process exited with code null' ]","timestamp":"2020-05-28T19:27:08.464Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'socket has disconnected: [object Object] , false!' ]","timestamp":"2020-05-28T19:27:11.296Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2020-05-28T19:27:29.233Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2020-05-28T19:27:29.234Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.3.2' ]","timestamp":"2020-05-28T19:27:29.238Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/sam/Unity/UnityHub.AppImage' ]","timestamp":"2020-05-28T19:27:29.238Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 3600 6-Core Processor; Linux (5.4.42_1)' ]","timestamp":"2020-05-28T19:27:29.239Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2020-05-28T19:27:29.243Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2020-05-28T19:27:29.243Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2020-05-28T19:27:29.450Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.453Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Done init' ]","timestamp":"2020-05-28T19:27:29.465Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.465Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.465Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2020-05-28T19:27:29.465Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2020-05-28T19:27:29.467Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '1 out of 1 valid paths found in path: /home/sam/Unity/Hub/Editor' ]","timestamp":"2020-05-28T19:27:29.467Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'read /home/sam/Unity/Hub/Editor/2020.1.0b10/modules.json' ]","timestamp":"2020-05-28T19:27:29.468Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2020-05-28T19:27:29.468Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2020-05-28T19:27:29.468Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.469Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.469Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.471Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2020-05-28T19:27:29.471Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2020-05-28T19:27:29.486Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2020-05-28T19:27:29.486Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2020-05-28T19:27:29.486Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2020-05-28T19:27:29.487Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:29.487Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2020-05-28T19:27:29.704Z"}
+{"moduleName":"BetaBuildConfig","level":"error","message":"[ { Error: Request failed with status code 404\n      at createError (/tmp/.mount_UnityHQiiFLJ/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n      at settle (/tmp/.mount_UnityHQiiFLJ/resources/app.asar/node_modules/axios/lib/core/settle.js:18:12)\n      at IncomingMessage.handleStreamEnd (/tmp/.mount_UnityHQiiFLJ/resources/app.asar/node_modules/axios/lib/adapters/http.js:202:11)\n      at IncomingMessage.emit (events.js:199:15)\n      at IncomingMessage.EventEmitter.emit (domain.js:469:20)\n      at endReadableNT (_stream_readable.js:1141:12)\n      at processTicksAndRejections (internal/process/task_queues.js:81:17)\n    config:\n     { adapter: [Function: httpAdapter],\n       transformRequest: [Object],\n       transformResponse: [Object],\n       timeout: 0,\n       xsrfCookieName: 'XSRF-TOKEN',\n       xsrfHeaderName: 'X-XSRF-TOKEN',\n       maxContentLength: -1,\n       validateStatus: [Function: validateStatus],\n       headers: [Object],\n       proxy: false,\n       method: 'get',\n       url:\n        'https://public-cdn.cloud.unity3d.com/hub/prod/betaConfig.json',\n       data: undefined },\n    request:\n     ClientRequest {\n       _events: [Object],\n       _eventsCount: 6,\n       _maxListeners: undefined,\n       outputData: [],\n       outputSize: 0,\n       writable: true,\n       _last: true,\n       chunkedEncoding: false,\n       shouldKeepAlive: false,\n       useChunkedEncodingByDefault: false,\n       sendDate: false,\n       _removedConnection: false,\n       _removedContLen: false,\n       _removedTE: false,\n       _contentLength: 0,\n       _hasBody: true,\n       _trailer: '',\n       finished: true,\n       _headerSent: true,\n       socket: [TLSSocket],\n       connection: [TLSSocket],\n       _header:\n        'GET /hub/prod/betaConfig.json HTTP/1.1\\r\\nAccept: application/json, text/plain, */*\\r\\nUser-Agent: axios/0.18.1\\r\\nHost: public-cdn.cloud.unity3d.com\\r\\nConnection: close\\r\\n\\r\\n',\n       _onPendingData: [Function: noopPendingOutput],\n       agent: [BoundHttpsProxyAgent],\n       socketPath: undefined,\n       method: 'GET',\n       path: '/hub/prod/betaConfig.json',\n       _ended: true,\n       res: [IncomingMessage],\n       aborted: false,\n       timeoutCb: null,\n       upgradeOrConnect: false,\n       parser: null,\n       maxHeadersCount: null,\n       _redirectable: [Writable],\n       [Symbol(isCorked)]: false,\n       [Symbol(outHeadersKey)]: [Object] },\n    response:\n     { status: 404,\n       statusText: 'Not Found',\n       headers: [Object],\n       config: [Object],\n       request: [ClientRequest],\n       data:\n        '<html>\\n<head><title>404 Not Found</title></head>\\n<body>\\n<h1>404 Not Found</h1>\\n<ul>\\n<li>Code: NoSuchKey</li>\\n<li>Message: The specified key does not exist.</li>\\n<li>Key: hub/prod/betaConfig.json</li>\\n<li>RequestId: 5A41EC29B4760468</li>\\n<li>HostId: f1wCryfbCtHFQkgGUFXHfpKSYO2ifGvxBxs+EHVoBedOc8aW0VJ4EjrnFbZzVIguIZwBF6wVfno=</li>\\n</ul>\\n<hr/>\\n</body>\\n</html>\\n' } } ]","timestamp":"2020-05-28T19:27:29.819Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2020-05-28T19:27:29.819Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2020-05-28T19:27:29.819Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2020-05-28T19:27:29.820Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2020-05-28T19:27:30.068Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2020-05-28T19:27:30.069Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.069Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2020-05-28T19:27:30.070Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.071Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.071Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.071Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.071Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2020-05-28T19:27:30.071Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.072Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:27:30.072Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2020-05-28T19:27:30.086Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2020-05-28T19:27:30.086Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading default page' ]","timestamp":"2020-05-28T19:27:30.106Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'openProject projectPath: /home/sam/dev/Octagonal, current editor:',\n  undefined ]","timestamp":"2020-05-28T19:27:37.372Z"}
+{"moduleName":"RestEvent:Project","level":"info","message":"[ 'onProjectOpen data:',\n  { projectPath: '/home/sam/dev/Octagonal' } ]","timestamp":"2020-05-28T19:27:37.372Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]","timestamp":"2020-05-28T19:27:47.419Z"}
+{"moduleName":"LaunchProcess","level":"info","message":"[ 'child process exited with code null' ]","timestamp":"2020-05-28T19:27:54.304Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'socket has disconnected: [object Object] , false!' ]","timestamp":"2020-05-28T19:27:57.585Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2020-05-28T19:28:35.403Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2020-05-28T19:28:35.404Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.3.2' ]","timestamp":"2020-05-28T19:28:35.408Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/sam/Unity/UnityHub.AppImage' ]","timestamp":"2020-05-28T19:28:35.408Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 3600 6-Core Processor; Linux (5.4.42_1)' ]","timestamp":"2020-05-28T19:28:35.409Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2020-05-28T19:28:35.412Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2020-05-28T19:28:35.413Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2020-05-28T19:28:35.606Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.609Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Done init' ]","timestamp":"2020-05-28T19:28:35.620Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.620Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.621Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2020-05-28T19:28:35.621Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2020-05-28T19:28:35.622Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '1 out of 1 valid paths found in path: /home/sam/Unity/Hub/Editor' ]","timestamp":"2020-05-28T19:28:35.623Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'read /home/sam/Unity/Hub/Editor/2020.1.0b10/modules.json' ]","timestamp":"2020-05-28T19:28:35.623Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2020-05-28T19:28:35.623Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2020-05-28T19:28:35.623Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.624Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.624Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.626Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2020-05-28T19:28:35.626Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2020-05-28T19:28:35.641Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2020-05-28T19:28:35.641Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2020-05-28T19:28:35.641Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2020-05-28T19:28:35.641Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:35.642Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2020-05-28T19:28:35.858Z"}
+{"moduleName":"BetaBuildConfig","level":"error","message":"[ { Error: Request failed with status code 404\n      at createError (/tmp/.mount_UnityHYjMOk8/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n      at settle (/tmp/.mount_UnityHYjMOk8/resources/app.asar/node_modules/axios/lib/core/settle.js:18:12)\n      at IncomingMessage.handleStreamEnd (/tmp/.mount_UnityHYjMOk8/resources/app.asar/node_modules/axios/lib/adapters/http.js:202:11)\n      at IncomingMessage.emit (events.js:199:15)\n      at IncomingMessage.EventEmitter.emit (domain.js:469:20)\n      at endReadableNT (_stream_readable.js:1141:12)\n      at processTicksAndRejections (internal/process/task_queues.js:81:17)\n    config:\n     { adapter: [Function: httpAdapter],\n       transformRequest: [Object],\n       transformResponse: [Object],\n       timeout: 0,\n       xsrfCookieName: 'XSRF-TOKEN',\n       xsrfHeaderName: 'X-XSRF-TOKEN',\n       maxContentLength: -1,\n       validateStatus: [Function: validateStatus],\n       headers: [Object],\n       proxy: false,\n       method: 'get',\n       url:\n        'https://public-cdn.cloud.unity3d.com/hub/prod/betaConfig.json',\n       data: undefined },\n    request:\n     ClientRequest {\n       _events: [Object],\n       _eventsCount: 6,\n       _maxListeners: undefined,\n       outputData: [],\n       outputSize: 0,\n       writable: true,\n       _last: true,\n       chunkedEncoding: false,\n       shouldKeepAlive: false,\n       useChunkedEncodingByDefault: false,\n       sendDate: false,\n       _removedConnection: false,\n       _removedContLen: false,\n       _removedTE: false,\n       _contentLength: 0,\n       _hasBody: true,\n       _trailer: '',\n       finished: true,\n       _headerSent: true,\n       socket: [TLSSocket],\n       connection: [TLSSocket],\n       _header:\n        'GET /hub/prod/betaConfig.json HTTP/1.1\\r\\nAccept: application/json, text/plain, */*\\r\\nUser-Agent: axios/0.18.1\\r\\nHost: public-cdn.cloud.unity3d.com\\r\\nConnection: close\\r\\n\\r\\n',\n       _onPendingData: [Function: noopPendingOutput],\n       agent: [BoundHttpsProxyAgent],\n       socketPath: undefined,\n       method: 'GET',\n       path: '/hub/prod/betaConfig.json',\n       _ended: true,\n       res: [IncomingMessage],\n       aborted: false,\n       timeoutCb: null,\n       upgradeOrConnect: false,\n       parser: null,\n       maxHeadersCount: null,\n       _redirectable: [Writable],\n       [Symbol(isCorked)]: false,\n       [Symbol(outHeadersKey)]: [Object] },\n    response:\n     { status: 404,\n       statusText: 'Not Found',\n       headers: [Object],\n       config: [Object],\n       request: [ClientRequest],\n       data:\n        '<html>\\n<head><title>404 Not Found</title></head>\\n<body>\\n<h1>404 Not Found</h1>\\n<ul>\\n<li>Code: NoSuchKey</li>\\n<li>Message: The specified key does not exist.</li>\\n<li>Key: hub/prod/betaConfig.json</li>\\n<li>RequestId: 3DD3C237CC47EBFE</li>\\n<li>HostId: Td6vNXAZTF0TRrAG0WBQFgKg5pHvocSWLJAz/jEkqenDriIf7ycxrwShDS5l9oupSI/haMs0G+4=</li>\\n</ul>\\n<hr/>\\n</body>\\n</html>\\n' } } ]","timestamp":"2020-05-28T19:28:36.479Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2020-05-28T19:28:36.479Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2020-05-28T19:28:36.480Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2020-05-28T19:28:36.480Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2020-05-28T19:28:36.633Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.633Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2020-05-28T19:28:36.633Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2020-05-28T19:28:36.633Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2020-05-28T19:28:36.634Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2020-05-28T19:28:36.634Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2020-05-28T19:28:36.634Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2020-05-28T19:28:36.634Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2020-05-28T19:28:36.635Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.635Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2020-05-28T19:28:36.636Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.636Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.636Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.636Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.637Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2020-05-28T19:28:36.637Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.637Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2020-05-28T19:28:36.637Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2020-05-28T19:28:36.652Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2020-05-28T19:28:36.652Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading default page' ]","timestamp":"2020-05-28T19:28:36.672Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'openProject projectPath: /home/sam/dev/Octagonal, current editor:',\n  undefined ]","timestamp":"2020-05-28T19:28:43.733Z"}
+{"moduleName":"RestEvent:Project","level":"info","message":"[ 'onProjectOpen data:',\n  { projectPath: '/home/sam/dev/Octagonal' } ]","timestamp":"2020-05-28T19:28:43.733Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]","timestamp":"2020-05-28T19:28:53.742Z"}
+{"moduleName":"LaunchProcess","level":"info","message":"[ 'child process exited with code null' ]","timestamp":"2020-05-28T19:28:59.482Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'socket has disconnected: [object Object] , false!' ]","timestamp":"2020-05-28T19:29:02.333Z"}

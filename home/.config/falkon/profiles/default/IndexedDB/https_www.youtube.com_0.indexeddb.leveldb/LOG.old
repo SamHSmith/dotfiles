@@ -1,0 +1,3 @@
+2020/09/30-20:35:07.940 3878 Reusing MANIFEST /home/sam/.config/falkon/profiles/default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/30-20:35:07.941 3878 Recovering log #3
+2020/09/30-20:35:07.941 3878 Reusing old log /home/sam/.config/falkon/profiles/default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

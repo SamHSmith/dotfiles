@@ -1,0 +1,12 @@
+[source]
+name=QEMU Session
+type=libvirt
+uri=qemu+unix:///session
+save-on-quit=true
+
+[display 033c6cd8-2ed1-4adb-a028-8e2050546222]
+last-seen-name=alpine-virt-3
+uuid=033c6cd8-2ed1-4adb-a028-8e2050546222
+run-in-bg=true
+access-last-time=1591033618466730
+access-ntimes=1

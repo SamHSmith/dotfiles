@@ -1,0 +1,18 @@
+2020/09/30-21:57:23.506 5f9d Reusing MANIFEST /home/sam/.config/falkon/profiles/default/Local Storage/leveldb/MANIFEST-000001
+2020/09/30-21:57:23.507 5f9d Recovering log #36
+2020/09/30-21:57:23.507 5f9d Reusing old log /home/sam/.config/falkon/profiles/default/Local Storage/leveldb/000036.log 
+2020/09/30-21:57:30.222 6065 Level-0 table #40: started
+2020/09/30-21:57:30.224 6065 Level-0 table #40: 24650 bytes OK
+2020/09/30-21:57:30.225 6065 Delete type=0 #36
+2020/09/30-22:01:25.093 6065 Level-0 table #42: started
+2020/09/30-22:01:25.095 6065 Level-0 table #42: 55879 bytes OK
+2020/09/30-22:01:25.096 6065 Delete type=0 #39
+2020/09/30-22:01:25.096 6065 Compacting 4@0 + 1@1 files
+2020/09/30-22:01:25.100 6065 Generated table #43@0: 137 keys, 273463 bytes
+2020/09/30-22:01:25.100 6065 Compacted 4@0 + 1@1 files => 273463 bytes
+2020/09/30-22:01:25.101 6065 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/30-22:01:25.101 6065 Delete type=2 #32
+2020/09/30-22:01:25.101 6065 Delete type=2 #34
+2020/09/30-22:01:25.101 6065 Delete type=2 #37
+2020/09/30-22:01:25.101 6065 Delete type=2 #40
+2020/09/30-22:01:25.101 6065 Delete type=2 #42

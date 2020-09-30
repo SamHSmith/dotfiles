@@ -1,0 +1,27 @@
+# GIMP action-history
+
+(history-item "layers-edit-attributes" 3)
+(history-item "layers-alpha-remove" 0)
+(history-item "file-quit" 1)
+(history-item "file-export-as" 1)
+(history-item "filters-gaussian-blur" 0)
+(history-item "file-open" 0)
+(history-item "edit-paste" 0)
+(history-item "edit-clear" 0)
+(history-item "layers-merge-down" 1)
+(history-item "filters-hue-saturation" 0)
+(history-item "layers-merge-layers" 0)
+(history-item "image-new" 0)
+(history-item "file-open-as-layers" 0)
+(history-item "layers-alpha-add" 1)
+(history-item "filters-color-balance" 0)
+(history-item "filters-channel-mixer" 0)
+(history-item "filters-levels" 0)
+(history-item "tools-gradient" 0)
+(history-item "gradient-editor-zoom-in" 0)
+(history-item "gradient-editor-zoom-out" 0)
+(history-item "tools-paintbrush" 0)
+(history-item "edit-copy" 0)
+(history-item "layers-flatten-image" 1)
+
+# end of action-history

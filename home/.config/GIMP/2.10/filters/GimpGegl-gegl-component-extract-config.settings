@@ -1,0 +1,9 @@
+# settings
+
+(GimpGegl-gegl-component-extract-config "2020-07-04 00:13:42"
+    (time 1593814422)
+    (component hsl-l)
+    (invert no)
+    (linear no))
+
+# end of settings

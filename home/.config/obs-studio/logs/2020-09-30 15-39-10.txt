@@ -1,0 +1,85 @@
+15:39:10.219: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+15:39:10.219: CPU Speed: 4186.431MHz
+15:39:10.220: Physical Cores: 6, Logical Cores: 12
+15:39:10.220: Physical Memory: 16020MB Total, 15213MB Free
+15:39:10.220: Kernel Version: Linux 5.8.12_1
+15:39:10.220: Distribution: "void" Unknown
+15:39:10.220: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+15:39:10.221: Portable mode: false
+15:39:10.248: OBS 25.0.8 (linux)
+15:39:10.248: ---------------------------------
+15:39:10.304: ---------------------------------
+15:39:10.304: audio settings reset:
+15:39:10.304: 	samples per sec: 44100
+15:39:10.304: 	speakers:        2
+15:39:10.309: ---------------------------------
+15:39:10.309: Initializing OpenGL...
+15:39:10.335: Loading up OpenGL on adapter X.Org AMD Radeon RX 5700 XT (NAVI10, DRM 3.38.0, 5.8.12_1, LLVM 10.0.0)
+15:39:10.335: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.1.8, shading language 4.60
+15:39:10.351: ---------------------------------
+15:39:10.352: video settings reset:
+15:39:10.352: 	base resolution:   1920x1080
+15:39:10.352: 	output resolution: 1920x1080
+15:39:10.352: 	downscale filter:  Bicubic
+15:39:10.352: 	fps:               60/1
+15:39:10.352: 	format:            NV12
+15:39:10.352: 	YUV mode:          601/Partial
+15:39:10.352: NV12 texture support not available
+15:39:10.359: Audio monitoring device:
+15:39:10.359: 	name: Default
+15:39:10.359: 	id: default
+15:39:10.359: ---------------------------------
+15:39:10.362: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+15:39:10.428: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:39:10.428: No blackmagic support
+15:39:10.445: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+15:39:10.445: 
+15:39:10.445: FFMPEG VAAPI supported
+15:39:10.453: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/package.json" failed: Could not resolve host: obsproject.com
+15:39:10.457: VLC found, VLC video source enabled
+15:39:10.457: Failed to load 'en_US' text for module: 'libobs-wlr-capture.so'
+15:39:10.457: ---------------------------------
+15:39:10.457:   Loaded Modules:
+15:39:10.457:     libobs-wlr-capture.so
+15:39:10.457:     vlc-video.so
+15:39:10.457:     text-freetype2.so
+15:39:10.457:     rtmp-services.so
+15:39:10.457:     obs-x264.so
+15:39:10.457:     obs-transitions.so
+15:39:10.457:     obs-outputs.so
+15:39:10.457:     obs-libfdk.so
+15:39:10.457:     obs-filters.so
+15:39:10.457:     obs-ffmpeg.so
+15:39:10.457:     linux-v4l2.so
+15:39:10.457:     linux-pulseaudio.so
+15:39:10.457:     linux-jack.so
+15:39:10.457:     linux-decklink.so
+15:39:10.457:     linux-capture.so
+15:39:10.457:     linux-alsa.so
+15:39:10.457:     image-source.so
+15:39:10.457:     frontend-tools.so
+15:39:10.457:     decklink-ouput-ui.so
+15:39:10.457: ---------------------------------
+15:39:10.457: ==== Startup complete ===============================================
+15:39:10.460: All scene data cleared
+15:39:10.460: ------------------------------------------------
+15:39:10.463: pulse-input: Server name: 'pulseaudio 13.0'
+15:39:10.463: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+15:39:10.464: pulse-input: Started recording from 'alsa_output.pci-0000_2b_00.4.analog-stereo.monitor'
+15:39:10.464: [Loaded global audio device]: 'Desktop Audio'
+15:39:10.464: pulse-input: Server name: 'pulseaudio 13.0'
+15:39:10.464: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+15:39:10.464: pulse-input: Started recording from 'alsa_input.usb-Antlion_Audio_Antlion_USB_Microphone-00.mono-fallback'
+15:39:10.464: [Loaded global audio device]: 'Mic/Aux'
+15:39:10.464: pulse-input: Server name: 'pulseaudio 13.0'
+15:39:10.465: pulse-input: An error occurred while getting the source info!
+15:39:10.468: Switched to scene 'Scene'
+15:39:10.468: ------------------------------------------------
+15:39:10.468: Loaded scenes:
+15:39:10.468: - scene 'Scene':
+15:39:10.468:     - source: 'wlr_capture_input' (wlr_capture_input)
+15:39:10.468:     - source: 'Mic/Aux' (pulse_input_capture)
+15:39:10.468:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+15:39:10.468: ------------------------------------------------
+15:39:10.997: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+15:39:10.997: 

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sleep 1.5
+flatpak run com.spotify.Client
+sleep 0.5
+swaymsg [class="Spotify"] move to workspace 8
+swaymsg workspace 1

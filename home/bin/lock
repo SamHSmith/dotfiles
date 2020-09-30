@@ -1,0 +1,4 @@
+#!/bin/bash
+swaylock --image /home/sam/Pictures/solace1.png --effect-blur 35x4 --clock --indicator --fade-in 0.15
+swaymsg workspace 1
+

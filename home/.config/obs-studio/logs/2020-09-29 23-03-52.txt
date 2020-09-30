@@ -1,0 +1,126 @@
+23:03:52.804: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+23:03:52.804: CPU Speed: 3601.857MHz
+23:03:52.804: Physical Cores: 6, Logical Cores: 12
+23:03:52.805: Physical Memory: 16020MB Total, 15340MB Free
+23:03:52.805: Kernel Version: Linux 5.8.12_1
+23:03:52.805: Distribution: "void" Unknown
+23:03:52.953: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+23:03:52.954: Portable mode: false
+23:03:52.982: OBS 25.0.8 (linux)
+23:03:52.982: ---------------------------------
+23:03:53.028: ---------------------------------
+23:03:53.029: audio settings reset:
+23:03:53.029: 	samples per sec: 44100
+23:03:53.029: 	speakers:        2
+23:03:53.033: ---------------------------------
+23:03:53.033: Initializing OpenGL...
+23:03:53.063: Loading up OpenGL on adapter X.Org AMD Radeon RX 5700 XT (NAVI10, DRM 3.38.0, 5.8.12_1, LLVM 10.0.0)
+23:03:53.063: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.1.8, shading language 4.60
+23:03:53.080: ---------------------------------
+23:03:53.080: video settings reset:
+23:03:53.080: 	base resolution:   1920x1080
+23:03:53.080: 	output resolution: 1920x1080
+23:03:53.080: 	downscale filter:  Bicubic
+23:03:53.080: 	fps:               60/1
+23:03:53.080: 	format:            NV12
+23:03:53.080: 	YUV mode:          601/Partial
+23:03:53.081: NV12 texture support not available
+23:03:53.089: Audio monitoring device:
+23:03:53.089: 	name: Default
+23:03:53.089: 	id: default
+23:03:53.089: ---------------------------------
+23:03:53.092: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+23:03:53.156: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:03:53.156: No blackmagic support
+23:03:53.172: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+23:03:53.172: 
+23:03:53.172: FFMPEG VAAPI supported
+23:03:53.183: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/package.json" failed: Could not resolve host: obsproject.com
+23:03:53.186: VLC found, VLC video source enabled
+23:03:53.187: Failed to load 'en_US' text for module: 'libobs-wlr-capture.so'
+23:03:53.187: ---------------------------------
+23:03:53.187:   Loaded Modules:
+23:03:53.187:     libobs-wlr-capture.so
+23:03:53.187:     vlc-video.so
+23:03:53.187:     text-freetype2.so
+23:03:53.187:     rtmp-services.so
+23:03:53.187:     obs-x264.so
+23:03:53.187:     obs-transitions.so
+23:03:53.187:     obs-outputs.so
+23:03:53.187:     obs-libfdk.so
+23:03:53.187:     obs-filters.so
+23:03:53.187:     obs-ffmpeg.so
+23:03:53.187:     linux-v4l2.so
+23:03:53.187:     linux-pulseaudio.so
+23:03:53.187:     linux-jack.so
+23:03:53.187:     linux-decklink.so
+23:03:53.187:     linux-capture.so
+23:03:53.187:     linux-alsa.so
+23:03:53.187:     image-source.so
+23:03:53.187:     frontend-tools.so
+23:03:53.187:     decklink-ouput-ui.so
+23:03:53.187: ---------------------------------
+23:03:53.187: ==== Startup complete ===============================================
+23:03:53.190: All scene data cleared
+23:03:53.190: ------------------------------------------------
+23:03:53.191: pulse-input: Unable to get server info !
+23:03:53.191: [Loaded global audio device]: 'Desktop Audio'
+23:03:53.192: pulse-input: Unable to get server info !
+23:03:53.192: [Loaded global audio device]: 'Mic/Aux'
+23:03:53.192: pulse-input: Unable to get server info !
+23:03:53.192: Switched to scene 'Scene'
+23:03:53.192: ------------------------------------------------
+23:03:53.192: Loaded scenes:
+23:03:53.192: - scene 'Scene':
+23:03:53.192:     - source: 'wlr_capture_input' (wlr_capture_input)
+23:03:53.192:     - source: 'Mic/Aux' (pulse_input_capture)
+23:03:53.192:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+23:03:53.192: ------------------------------------------------
+23:03:53.233: Failed to fetch parent window geometry!
+23:03:53.233: gl_platform_init_swapchain  failed
+23:03:53.233: obs_display_init: Failed to create swap chain
+23:03:53.424: Failed to fetch parent window geometry!
+23:03:53.425: gl_platform_init_swapchain  failed
+23:03:53.425: obs_display_init: Failed to create swap chain
+23:03:53.430: Failed to fetch parent window geometry!
+23:03:53.430: gl_platform_init_swapchain  failed
+23:03:53.430: obs_display_init: Failed to create swap chain
+23:03:53.431: Failed to fetch parent window geometry!
+23:03:53.431: gl_platform_init_swapchain  failed
+23:03:53.431: obs_display_init: Failed to create swap chain
+23:03:54.760: Failed to fetch parent window geometry!
+23:03:54.760: gl_platform_init_swapchain  failed
+23:03:54.760: obs_display_init: Failed to create swap chain
+23:03:54.768: Failed to fetch parent window geometry!
+23:03:54.768: gl_platform_init_swapchain  failed
+23:03:54.768: obs_display_init: Failed to create swap chain
+23:03:54.770: Failed to fetch parent window geometry!
+23:03:54.770: gl_platform_init_swapchain  failed
+23:03:54.770: obs_display_init: Failed to create swap chain
+23:03:54.983: Failed to fetch parent window geometry!
+23:03:54.983: gl_platform_init_swapchain  failed
+23:03:54.983: obs_display_init: Failed to create swap chain
+23:03:54.992: Failed to fetch parent window geometry!
+23:03:54.992: gl_platform_init_swapchain  failed
+23:03:54.992: obs_display_init: Failed to create swap chain
+23:03:54.995: Failed to fetch parent window geometry!
+23:03:54.995: gl_platform_init_swapchain  failed
+23:03:54.995: obs_display_init: Failed to create swap chain
+23:04:05.575: Failed to fetch parent window geometry!
+23:04:05.575: gl_platform_init_swapchain  failed
+23:04:05.575: obs_display_init: Failed to create swap chain
+23:04:05.581: Failed to fetch parent window geometry!
+23:04:05.581: gl_platform_init_swapchain  failed
+23:04:05.581: obs_display_init: Failed to create swap chain
+23:04:05.583: Failed to fetch parent window geometry!
+23:04:05.583: gl_platform_init_swapchain  failed
+23:04:05.583: obs_display_init: Failed to create swap chain
+23:04:05.685: Failed to fetch parent window geometry!
+23:04:05.685: gl_platform_init_swapchain  failed
+23:04:05.685: obs_display_init: Failed to create swap chain
+23:04:05.692: Failed to fetch parent window geometry!
+23:04:05.692: gl_platform_init_swapchain  failed
+23:04:05.692: obs_display_init: Failed to create swap chain
+23:04:05.696: Failed to fetch parent window geometry!
+23:04:05.696: gl_platform_init_swapchain  failed
+23:04:05.696: obs_display_init: Failed to create swap chain
